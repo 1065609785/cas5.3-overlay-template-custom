@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.apereo.cas.config.CasEmbeddedContainerTomcatConfiguration,\
+  org.apereo.cas.config.CasEmbeddedContainerTomcatFiltersConfiguration,\
+  com.zsy.cutom.authentication.CustomCaptchaConfigurer,\
+  com.zsy.cutom.authentication.CustomCasJdbcAuthenticationConfiguration,\
+  com.zsy.cutom.authentication.KaptchaConfig
+
